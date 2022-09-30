@@ -1,0 +1,80 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+h6 {
+  font-size: 90px;
+  color: green;
+}
+
+h4 {
+  color: blue;
+}
+
+h3 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: black;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 0 auto;
+}
+
+.blog-post {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+}
+
+.other-post {
+  width: 20%;
+  float: left;
+}
+
+.author-box {
+  border-top: 10px solid gray;
+}
+
+.fotoTijger {
+  box-sizing: content-box;
+}
+
+.other {
+  margin-bottom: 40px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.tijger-text {
+  font-size: 22px;
+  float: left;
+  margin-top: 35px;
+  margin-left: 20px;
+}

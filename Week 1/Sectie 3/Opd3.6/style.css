@@ -1,0 +1,79 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.Foto img {
+  box-sizing: content-box;
+  /* padding-left: 15%; */
+  border: 10px;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  padding: 70px;
+  float: left;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  /* float: left; */
+  /* width: 75%; */
+  margin-left: 90%;
+}
+
+.author {
+  padding-top: 20px;
+  border-top: 5px solid black;
+}
+
+.content-box {
+  width: 50%;
+}
+
+.author img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 850px;
+}
+
+.author p {
+  float: left;
+  padding-top: 20px;
+}
+
+.Herder {
+  margin-left: 800px;
+}
+
+.Titel {
+  color: green;
+}
+
+.Kop {
+  color: red;
+}
+
+.Tekst {
+  color: green;
+}
+
+h2 {
+  color: green;
+}
+
+.Links {
+  padding-bottom: 30px;
+}
+
+.Absoluut h3 {
+  text-align: center;
+  color: green;
+}
+/* .content-box2 {
+  width: 1000px;
+  margin: 20px auto 0 auto;
+} */

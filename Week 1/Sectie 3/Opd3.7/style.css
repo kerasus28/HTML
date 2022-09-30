@@ -1,0 +1,82 @@
+/* * {
+  height: 900px;
+  width: 900px;
+} */
+
+.one {
+  background-color: yellow;
+  float: left;
+  /* height: 300px;
+  width: 600px; */
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.two {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.three {
+  float: left;
+  background-color: blue;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.four {
+  float: left;
+  background-color: green;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.five {
+  float: left;
+  background-color: white;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.six {
+  float: left;
+  background-color: purple;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.seven {
+  float: left;
+  background-color: gray;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.eight {
+  float: left;
+  background-color: bisque;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.nine {
+  float: left;
+  background-color: orange;
+  text-align: center;
+  width: 33.3%;
+  height: 330px;
+}
+
+.cijfers {
+  padding-top: 140px;
+}

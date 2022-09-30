@@ -1,0 +1,7 @@
+.Foto img {
+  box-sizing: border-box;
+  height: 300px;
+  width: 300px;
+  padding: 125px;
+  border: 10px;
+}
