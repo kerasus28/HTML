@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+.Foto1 {
+  background-image: url(Tijger1.jpg);
+  background-size: cover;
+  height: 20vh;
+  width: 25%;
+  float: left;
+}
+
+.Foto2 {
+  background-image: url(Tijger2.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  height: 20vh;
+  width: 25%;
+}
+
+.Foto3 {
+  background-image: url(Tijger3.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  height: 20vh;
+  width: 25%;
+}
+
+.Foto4 {
+  background-image: url(Tijger5.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  float: left;
+  height: 20vh;
+  width: 25%;
+}

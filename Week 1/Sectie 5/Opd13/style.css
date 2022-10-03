@@ -1,0 +1,13 @@
+.Foto img {
+  /* position: relative; */
+  margin-top: 10%;
+  margin-left: 20%;
+  height: 300px;
+}
+
+.container {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 50%;
+  width: 280px;
+}

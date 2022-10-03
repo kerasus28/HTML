@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  /* max-width: 1919px; */
+}
+
+.Foto1 {
+  background-image: url(Tijger1.jpg);
+  /* border-image-repeat: repeat; */
+  /* background-repeat: repeat-y; */
+  background-size: cover;
+  height: 20vh;
+  width: 25%;
+  float: left;
+}
+
+.Foto2 {
+  background-image: url(Tijger2.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  height: 20vh;
+  width: 25%;
+}
+
+.Foto3 {
+  background-image: url(Tijger3.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  height: 20vh;
+  width: 25%;
+}
+
+.Foto4 {
+  background-image: url(Tijger5.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  height: 40vh;
+  width: 25%;
+}
+
+.container {
+  background-repeat: repeat;
+}
