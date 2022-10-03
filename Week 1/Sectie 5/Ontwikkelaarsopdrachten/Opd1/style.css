@@ -1,0 +1,40 @@
+* {
+  margin-left: 0;
+  /* width: ; */
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 7%;
+}
+
+.nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+.green {
+  padding: 10px;
+  text-align: center;
+  background-color: green;
+}
+
+.yellow {
+  padding: 10px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.red {
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+}
+
+.blue {
+  padding: 10px;
+  text-align: center;
+  background-color: blue;
+}
