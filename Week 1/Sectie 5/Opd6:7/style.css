@@ -1,0 +1,30 @@
+.link a {
+  text-transform: uppercase;
+}
+
+.link2 a {
+  text-transform: lowercase;
+}
+h2 {
+  text-transform: lowercase;
+}
+
+.link3 a {
+  color: purple;
+  text-decoration-line: unset;
+}
+
+.link4 a {
+  color: green;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+}
