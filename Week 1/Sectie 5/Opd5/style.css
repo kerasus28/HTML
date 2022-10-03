@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+header {
+  background-image: url(Tijger1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+h1 {
+  /* margin: 0; */
+  color: red;
+  position: absolute;
+  top: 95%;
+  right: 0%;
+}
