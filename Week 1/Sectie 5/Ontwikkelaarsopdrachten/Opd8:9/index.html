@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Opdracht 8 en 9</title>
+  </head>
+  <body>
+    <header></header>
+    <section class="section-form">
+      <div class="row">
+        <h2>Contactformulier</h2>
+      </div>
+      <div class="row">
+        <form method="post" action="#" class="contact-form">
+          <div class="row">
+            <div class="title">
+              <label>Naam</label>
+            </div>
+            <div class="text">
+              <input type="text" name="name" id="name" required />
+            </div>
+          </div>
+          <div class="row">
+            <div class="title">
+              <label>E-mail</label>
+            </div>
+            <div class="text">
+              <input type="email" name="email" id="email" required />
+            </div>
+          </div>
+          <div class="row">
+            <div class="title">
+              <label>Wachtwoord</label>
+            </div>
+            <div class="text">
+              <input
+                type="password"
+                name="wachtwoord"
+                id="wachtwoord"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="title">
+              <label>Geslacht</label>
+            </div>
+            <div class="gender">
+              <select name="geslacht" id="geslacht">
+                <option value="man">Man</option>
+                <option value="vrouw">Vrouw</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="title2">
+              <label>Media</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" name="nieuwsbrief" id="nieuwsbrief" />News
+              <!-- <br /> -->
+              <input type="checkbox" name="mailing" id="mailing" />Mailing
+              <!-- <br /> -->
+              <input type="checkbox" name="post" id="post" />Post
+            </div>
+          </div>
+          <div class="row">
+            <div class="button">
+              <button class="button">Stuur me op!</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
