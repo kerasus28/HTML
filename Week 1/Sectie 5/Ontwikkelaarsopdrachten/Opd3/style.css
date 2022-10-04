@@ -1,0 +1,38 @@
+* {
+  font-size: 22px;
+  color: orange;
+}
+
+.container {
+  margin-left: 50px;
+  float: left;
+  width: 200px;
+  letter-spacing: 10px;
+}
+
+.container2 {
+  float: left;
+  margin-left: 300px;
+  width: 300px;
+  letter-spacing: 10px;
+}
+
+.foto2 img {
+  height: 25px;
+  float: left;
+  margin-top: 19px;
+}
+
+.tekst2 h2 {
+  margin-left: 40px;
+}
+
+.foto img {
+  height: 25px;
+  float: left;
+  margin-top: 17px;
+}
+
+.tekst h2 {
+  margin-left: 40px;
+}
