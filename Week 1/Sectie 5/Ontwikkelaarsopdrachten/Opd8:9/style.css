@@ -6,6 +6,7 @@
 header {
   background-image: url(Tijger.jpg);
   background-size: auto;
+  background-size: cover;
   background-position-y: 35%;
   height: 33vh;
 }
@@ -69,10 +70,10 @@ header {
     width: 224px;
   }
   .gender {
-    /* width: 70px; */
-    /* float: left; */
+    width: 70px;
     margin-left: 0%;
     margin-top: 15px;
+    display: block;
   }
   .check {
     padding-top: 7%;
