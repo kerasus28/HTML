@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-image: url(black.jpg);
+  background-position: center;
+  height: 90vh;
+  /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+}
+
+body {
+  position: static;
+  background-image: url(/Tijger.jpg);
+  clip-path: inset(50% 50% 40% 35%);
+}

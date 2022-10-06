@@ -1,0 +1,6 @@
+header {
+  background-image: url(/Tijger.jpg);
+  background-position: center;
+  height: 98vh;
+  clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+}
