@@ -1,0 +1,155 @@
+* {
+  font-size: 18px;
+  margin: 0;
+}
+
+header {
+  background-image: url(Tijger.jpg);
+  background-size: auto;
+  background-size: cover;
+  background-position-y: 35%;
+  height: 33vh;
+}
+
+.section-form {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.row label {
+  float: left;
+}
+
+.text {
+  margin-left: 30%;
+  margin-top: 15px;
+  width: 224px;
+  border: solid 2px orange;
+}
+
+.check {
+  width: 69px;
+  margin-top: 15px;
+  margin-left: 30%;
+}
+
+.gender {
+  margin-left: 30%;
+  margin-top: 15px;
+}
+
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.row h2 {
+  font-size: 33px;
+  font-family: "Courier New", Courier, monospace;
+  color: orange;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 574px) {
+  .section-form {
+    margin-left: 10%;
+    margin-top: 7%;
+  }
+  .text {
+    margin-left: 0;
+    margin-top: 25px;
+    width: 224px;
+  }
+  .gender {
+    width: 70px;
+    margin-left: 0%;
+    margin-top: 15px;
+    display: block;
+  }
+  .check {
+    padding-top: 7%;
+    width: 69px;
+    margin-top: 15px;
+    margin-left: 0%;
+  }
+  header {
+    background-image: url(Tijger.jpg);
+    background-size: cover;
+    height: 33vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-form {
+    margin-left: 10%;
+    margin-top: 7%;
+  }
+  .text {
+    margin-left: 0;
+    margin-top: 25px;
+    width: 224px;
+  }
+  .gender {
+    width: 70px;
+    margin-left: 0%;
+    margin-top: 15px;
+    display: block;
+  }
+  .check {
+    padding-top: 7%;
+    width: 69px;
+    margin-top: 15px;
+    margin-left: 0%;
+  }
+  header {
+    background-image: url(Tijger.jpg);
+    background-size: cover;
+    height: 33vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-form {
+    margin-left: 28%;
+    margin-top: 5%;
+  }
+
+  .row label {
+    float: left;
+  }
+
+  .text {
+    margin-left: 30%;
+    margin-top: 15px;
+    width: 224px;
+    /* border: solid 2px orange; */
+  }
+
+  .check {
+    width: 69px;
+    margin-top: 15px;
+    margin-left: 30%;
+  }
+
+  .gender {
+    margin-left: 30%;
+    margin-top: 15px;
+  }
+
+  .row h2 {
+    font-size: 33px;
+    font-family: "Courier New", Courier, monospace;
+    color: orange;
+    text-decoration: underline;
+    padding-bottom: 20px;
+  }
+}
