@@ -123,48 +123,90 @@
 
 // The ternary operator and switch statement
 
-var firstName = "John";
-var age = 19;
+// var firstName = "John";
+// var age = 19;
 
-age >= 18
-  ? console.log(firstName + " drinks beer")
-  : console.log(firstName + " drinks juice");
+// age >= 18
+//   ? console.log(firstName + " drinks beer")
+//   : console.log(firstName + " drinks juice");
 
-var drink = age >= 18 ? "beer" : "juice";
+// var drink = age >= 18 ? "beer" : "juice";
 
-console.log(drink);
+// console.log(drink);
 
-if (age >= 18) {
-  var drink = "beer";
-} else {
-  var drink = "juice";
-}
+// if (age >= 18) {
+//   var drink = "beer";
+// } else {
+//   var drink = "juice";
+// }
 
 // switch statement
 
-var job = "teacher";
-switch (job) {
-  case "teacher":
-    console.log(firstName + " teaches kids how to code");
-    break;
-  case "driver":
-    console.log(firstName + " drives a taxi in Amsterdam");
-    break;
-  case "designer":
-    console.log(firstName + " designs beautiful websites");
-    break;
-  default:
-    console.log(firstName + " is broke");
+// var job = "teacher";
+// switch (job) {
+//   case "teacher":
+//     console.log(firstName + " teaches kids how to code");
+//     break;
+//   case "driver":
+//     console.log(firstName + " drives a taxi in Amsterdam");
+//     break;
+//   case "designer":
+//     console.log(firstName + " designs beautiful websites");
+//     break;
+//   default:
+//     console.log(firstName + " is broke");
+// }
+
+// age = 37;
+// switch (true) {
+//   case age < 13:
+//     console.log(firstName + " is a boy");
+//     break;
+//   case age >= 13 && age < 20:
+//     console.log(firstName + " is a teenager");
+//     break;
+//   default:
+//     console.log(firstName + " john is a man");
+// }
+
+/*********************************************************************
+ * Truthy and Falsy values and equality operators
+ */
+
+// falsy values: undefined, null, 0, '',NaN
+// Truthy values: not Falsy values
+
+// var height;
+
+// height = 23;
+
+// if (height || height === 0) {
+//   console.log("variable is defined");
+// } else {
+//   console.log("Variable has NOT defined");
+// }
+
+//functions
+
+function calculateAge(birthYear) {
+  return 2018 - birthYear;
 }
 
-age = 37;
-switch (true) {
-  case age < 13:
-    console.log(firstName + " is a boy");
-    break;
-  case age >= 13 && age < 20:
-    console.log(firstName + " is a teenager");
-    break;
-  default:
-    console.log(firstName + " john is a man");
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1994);
+var ageJane = calculateAge(1986);
+console.log(ageJohn, ageMike, ageJane);
+
+function yearsUntilRetirement(year, firstName) {
+  var age = calculateAge(year);
+  var retirement = 65 - age;
+
+  if (retirement > 0) {
+    console.log(firstName + " retires in " + retirement + " years");
+  } else {
+    console.log(firstName + " is already retired");
+  }
 }
+yearsUntilRetirement(1990, "John");
+yearsUntilRetirement(2001, "Burak");
+yearsUntilRetirement(1974, "Ismael");
