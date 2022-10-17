@@ -188,25 +188,83 @@
 
 //functions
 
-function calculateAge(birthYear) {
-  return 2018 - birthYear;
-}
+// function calculateAge(birthYear) {
+//   return 2018 - birthYear;
+// }
 
-var ageJohn = calculateAge(1990);
-var ageMike = calculateAge(1994);
-var ageJane = calculateAge(1986);
-console.log(ageJohn, ageMike, ageJane);
+// var ageJohn = calculateAge(1990);
+// var ageMike = calculateAge(1994);
+// var ageJane = calculateAge(1986);
+// console.log(ageJohn, ageMike, ageJane);
 
-function yearsUntilRetirement(year, firstName) {
-  var age = calculateAge(year);
-  var retirement = 65 - age;
+// function yearsUntilRetirement(year, firstName) {
+//   var age = calculateAge(year);
+//   var retirement = 65 - age;
 
-  if (retirement > 0) {
-    console.log(firstName + " retires in " + retirement + " years");
+//   if (retirement > 0) {
+//     console.log(firstName + " retires in " + retirement + " years");
+//   } else {
+//     console.log(firstName + " is already retired");
+//   }
+// }
+// yearsUntilRetirement(1990, "John");
+// yearsUntilRetirement(2001, "Burak");
+// yearsUntilRetirement(1974, "Ismael");
+
+/***********************************************
+ * Arrays
+ */
+
+// Initialize ne array
+// var names = ["john", "Mark", "Jane"];
+// var years = new Array(1990, 1969, 1948);
+
+// console.log(names.length);
+
+// // Mutate array data
+// names[1] = "Ben";
+// names[names.length] = "Mary";
+// console.log(names);
+
+// //Diferent data types
+
+// var john = ["John", "Smith", 1990, "Teacher", false];
+
+// john.push("blue");
+// john.unshift("Mr.");
+// console.log(john);
+
+// john.pop();
+// john.shift();
+// console.log(john);
+
+// console.log(john.indexOf(1990));
+
+// var isDesigner =
+//   john.indexOf("designer") === -1
+//     ? "John is not a designer"
+//     : "John is a designer";
+// console.log(isDesigner);
+
+function tipCalculator(bill) {
+  var percentage;
+  if (bill < 50) {
+    percentage = 0.2;
+  } else if (bill >= 50 && bill < 200) {
+    percentage = 0.15;
   } else {
-    console.log(firstName + " is already retired");
+    percentage = 0.1;
   }
+  return percentage * bill;
 }
-yearsUntilRetirement(1990, "John");
-yearsUntilRetirement(2001, "Burak");
-yearsUntilRetirement(1974, "Ismael");
+
+var bills = [124, 48, 268];
+var tips = [
+  tipCalculator(bills[0]),
+  tipCalculator(bills[1]),
+  tipCalculator(bills[2]),
+];
+
+var finalValues = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+console.log(tips, finalValues);
