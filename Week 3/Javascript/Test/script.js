@@ -192,8 +192,8 @@
 //   return 2018 - birthYear;
 // }
 
-// var ageJohn = calculateAge(1990);
-// var ageMike = calculateAge(1994);
+// var ageGulsah = calculateAge(1990);
+// var ageM = calculateAge(1994);
 // var ageJane = calculateAge(1986);
 // console.log(ageJohn, ageMike, ageJane);
 
@@ -207,7 +207,7 @@
 //     console.log(firstName + " is already retired");
 //   }
 // }
-// yearsUntilRetirement(1990, "John");
+// yearsUntilRetirement(1990, "Gulsah");
 // yearsUntilRetirement(2001, "Burak");
 // yearsUntilRetirement(1974, "Ismael");
 
@@ -246,25 +246,25 @@
 //     : "John is a designer";
 // console.log(isDesigner);
 
-function tipCalculator(bill) {
-  var percentage;
-  if (bill < 50) {
-    percentage = 0.2;
-  } else if (bill >= 50 && bill < 200) {
-    percentage = 0.15;
-  } else {
-    percentage = 0.1;
-  }
-  return percentage * bill;
-}
+// function tipCalculator(bill) {
+//   var percentage;
+//   if (bill < 50) {
+//     percentage = 0.2;
+//   } else if (bill >= 50 && bill < 200) {
+//     percentage = 0.15;
+//   } else {
+//     percentage = 0.1;
+//   }
+//   return percentage * bill;
+// }
 
-var bills = [124, 48, 268];
-var tips = [
-  tipCalculator(bills[0]),
-  tipCalculator(bills[1]),
-  tipCalculator(bills[2]),
-];
+// var bills = [124, 48, 268];
+// var tips = [
+//   tipCalculator(bills[0]),
+//   tipCalculator(bills[1]),
+//   tipCalculator(bills[2]),
+// ];
 
-var finalValues = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+// var finalValues = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
-console.log(tips, finalValues);
+// console.log(tips, finalValues);
