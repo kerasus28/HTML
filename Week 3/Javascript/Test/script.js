@@ -318,31 +318,60 @@
 // john.calcAge();
 // console.log(john);
 
-var john = {
-  fullName: "John Smith",
-  mass: 84,
-  height: 1.85,
-  calcBMI: function () {
-    this.bmi = this.mass / (this.height * this.height);
-    return this.bmi;
-  },
-};
+// var john = {
+//   fullName: "John Smith",
+//   mass: 84,
+//   height: 1.85,
+//   calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
 
-var mark = {
-  fullName: "Mark Miller",
-  mass: 79,
-  height: 1.79,
-  calcBMI: function () {
-    this.bmi = this.mass / (this.height * this.height);
-    return this.bmi;
-  },
-};
+// var mark = {
+//   fullName: "Mark Miller",
+//   mass: 79,
+//   height: 1.79,
+//   calcBMI: function () {
+//     this.bmi = this.mass / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
 
-console.log(john, mark);
+// console.log(john, mark);
 
-if (john.calcBMI() > mark.calcBMI()) {
-  console.log(john.fullName + " has a higher BMI of " + john.bmi);
+// if (john.calcBMI() > mark.calcBMI()) {
+//   console.log(john.fullName + " has a higher BMI of " + john.bmi);
+// } else {
+//   mark.bmi > john.bmi;
+//   console.log(mark.fullName + " has a higher BMI of " + mark.bmi);
+// }
+
+// let x = 5 - "2s" + "1";
+// if (x) {
+//   console.log("Waar");
+// } else {
+//   console.log("Niet waar");
+// }
+
+// const age = 5;
+// if (age === 5) {
+//   console.log("het begin van het begin");
+// } else if (age === "5") {
+//   console.log("het begin van het begin - nog steeds");
+// } else if (age == 5) {
+//   console.log("ok");
+// } else {
+//   console.log("What just happened");
+// }
+
+const junkfood = false;
+const healthyFood = true;
+
+if (!junkfood && !healthyFood) {
+  console.log("Do you eat??");
+} else if (junkfood) {
+  console.log("It would be a mistake to conclude that i know what is false...");
 } else {
-  mark.bmi > john.bmi;
-  console.log(mark.fullName + " has a higher BMI of " + mark.bmi);
+  console.log("I want JUNKFOOD!");
 }
