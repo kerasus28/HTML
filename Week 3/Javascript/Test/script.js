@@ -268,3 +268,81 @@
 // var finalValues = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 // console.log(tips, finalValues);
+
+/******************************
+ * objects and properties
+ */
+
+//object literal
+// var john = {
+//   firstName: "John",
+//   lastName: "Smith",
+//   brithYear: 1990,
+//   family: ["Jane", "Mark", "Bob", "Emeliy"],
+//   job: "teacher",
+//   isMarried: false,
+// };
+// console.log(john.firstName);
+// console.log(john["lastName"]);
+// var x = "brithYear";
+// console.log(john[x]);
+
+// john, (job = "designer");
+// john["isMarried"] = true;
+// console.log(john);
+
+// //new Object syntax
+// var jane = new Object();
+// jane.firstName = "Jane";
+// jane.brithYear = 1969;
+// jane["lastName"] = "smith";
+
+// console.log(jane);
+
+/************************************
+ * Objects and methods
+ */
+
+// var john = {
+//   firstName: "John",
+//   lastName: "Smith",
+//   birthYear: 1990,
+//   family: ["Jane", "Mark", "Bob", "Emily"],
+//   job: "teacher",
+//   isMarried: false,
+//   calcAge: function () {
+//     this.age = 2018 - this.birthYear;
+//   },
+// };
+
+// john.calcAge();
+// console.log(john);
+
+var john = {
+  fullName: "John Smith",
+  mass: 84,
+  height: 1.85,
+  calcBMI: function () {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  },
+};
+
+var mark = {
+  fullName: "Mark Miller",
+  mass: 79,
+  height: 1.79,
+  calcBMI: function () {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  },
+};
+
+console.log(john, mark);
+
+if (john.calcBMI() > mark.calcBMI()) {
+  console.log(john.fullName + " has a higher BMI of " + john.bmi);
+} else {
+  mark.bmi > john.bmi;
+  console.log(mark.fullName + " has a higher BMI of " + mark.bmi);
+}
