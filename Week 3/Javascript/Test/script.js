@@ -365,13 +365,43 @@
 //   console.log("What just happened");
 // }
 
-const junkfood = false;
-const healthyFood = true;
+// const junkfood = false;
+// const healthyFood = true;
 
-if (!junkfood && !healthyFood) {
-  console.log("Do you eat??");
-} else if (junkfood) {
-  console.log("It would be a mistake to conclude that i know what is false...");
-} else {
-  console.log("I want JUNKFOOD!");
-}
+// if (!junkfood && !healthyFood) {
+//   console.log("Do you eat??");
+// } else if (junkfood) {
+//   console.log("It would be a mistake to conclude that i know what is false...");
+// } else {
+//   console.log("I want JUNKFOOD!");
+// }
+
+// var john = {
+//   fullname: "John Smith",
+//   bills: [124, 48, 268, 180, 42],
+//   calcTips: function () {
+//     this.tips = [];
+//     this.finalValues = [];
+
+//     for (var i = 0; i < this.bills.lenght; i++) {
+//       // determine percaentage based on tipping rules
+//       var percentage;
+//       var bill = this.bills[i];
+
+//       if (bill < 50) {
+//         percentage = 0.2;
+//       } else if (bill >= 50 && bill < 200) {
+//         percentage = 0.15;
+//       } else {
+//         percentage = 0.1;
+//       }
+
+//       // add result to the corresponding arrays
+//       this.tips[i] = bill * percentage;
+//       this.finalValues[i] = bill + bill * percentage;
+//     }
+//   },
+// };
+
+// john.calcTips();
+// console.log(john);
