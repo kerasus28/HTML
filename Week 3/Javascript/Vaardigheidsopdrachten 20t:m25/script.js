@@ -46,30 +46,42 @@
 //   console.log("lekker patat eten");
 // }
 
-const cijfer1 = 9.4;
-const cijfer2 = 3.8;
-const cijfer3 = 2.7;
-const cijfer4 = 6.7;
-const cijfer5 = 8.9;
+// const cijfer1 = 9.4;
+// const cijfer2 = 3.8;
+// const cijfer3 = 2.7;
+// const cijfer4 = 6.7;
+// const cijfer5 = 8.9;
 
-cijferSofie = (cijfer1 + cijfer2 + cijfer3 + cijfer4 + cijfer5 * 2) / 6;
+// cijferSofie = (cijfer1 + cijfer2 + cijfer3 + cijfer4 + cijfer5 * 2) / 6;
 
-// console.log(cijferSofie);
+// // console.log(cijferSofie);
 
-const cijfer6 = 7.7;
-const cijfer7 = 7.6;
-const cijfer8 = 7.3;
-const cijfer9 = 5.8;
-const cijfer10 = 6.9;
+// const cijfer6 = 7.7;
+// const cijfer7 = 7.6;
+// const cijfer8 = 7.3;
+// const cijfer9 = 5.8;
+// const cijfer10 = 6.9;
 
-cijferSarah = (cijfer6 + cijfer7 + cijfer8 + cijfer9 + cijfer10) / 5;
+// cijferSarah = (cijfer6 + cijfer7 + cijfer8 + cijfer9 + cijfer10) / 5;
 
-// console.log(cijferSarah);
+// // console.log(cijferSarah);
 
-if (cijferSarah > cijferSofie) {
-  console.log("Gemiddelde van Sarah is hoger " + cijferSarah);
-} else if (cijferSofie > cijferSarah) {
-  console.log("Gemiddelde van Sofie is hoger " + cijferSofie);
-} else if (cijferSarah > cijferSofie || cijferSarah >= 7) {
-  console.log("help " + cijferSarah);
-}
+// if (cijferSarah > cijferSofie) {
+//   console.log("Gemiddelde van Sarah is hoger " + cijferSarah);
+// } else if (cijferSofie > cijferSarah) {
+//   console.log("Gemiddelde van Sofie is hoger " + cijferSofie);
+// } else if (cijferSarah > cijferSofie || cijferSarah >= 7) {
+//   console.log("help " + cijferSarah);
+// }
+
+// const age = 18;
+// opleiding = false;
+// woning = true;
+
+// if (age >= 18 && opleiding == true && woning == false) {
+//   console.log("Whieeeeee stufi!");
+// } else if (woning == true && age >= 18 && opleiding == true) {
+//   console.log("Whieee veel stufi");
+// } else {
+//   console.log("je krijgt geen stufi bro");
+// }
