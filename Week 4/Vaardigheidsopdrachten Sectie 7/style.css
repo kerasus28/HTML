@@ -1,15 +1,32 @@
 * {
+  box-sizing: border-box;
 }
 
 .flex-container {
   display: flex;
-  flex-direction: row;
   border-style: solid;
+  flex-wrap: wrap;
 }
 
 .flex_child {
   border: 2px solid green;
-  height: 400px;
-  font-size: 20px;
-  flex-basis: 20rem;
+  height: 300px;
+  font-size: 30px;
+  flex-basis: 350px;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#purple {
+  background-color: purple;
 }
