@@ -1,0 +1,15 @@
+* {
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+}
+
+.flex_child {
+  border: 2px solid green;
+  height: 400px;
+  font-size: 20px;
+  flex-basis: 20rem;
+}
