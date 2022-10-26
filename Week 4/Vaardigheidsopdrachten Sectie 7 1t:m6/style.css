@@ -6,19 +6,13 @@
   display: flex;
   border-style: solid;
   flex-wrap: wrap;
-  justify-content: space-between;
-  /* align-items: stretch; */
-  /* align-items: center; */
-  height: 400px;
-  /* align-content: center; */
-
-  align-items: flex-end;
+  justify-content: center;
 }
 
 .flex_child {
   display: flex;
   border: 2px solid green;
-  height: 30px;
+  height: 300px;
   font-size: 30px;
   flex-basis: 350px;
   align-items: center;
