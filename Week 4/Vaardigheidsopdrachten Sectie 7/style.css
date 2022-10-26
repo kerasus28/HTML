@@ -6,13 +6,17 @@
   display: flex;
   border-style: solid;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex_child {
+  display: flex;
   border: 2px solid green;
   height: 300px;
   font-size: 30px;
   flex-basis: 350px;
+  align-items: center;
+  justify-content: center;
 }
 
 #yellow {
