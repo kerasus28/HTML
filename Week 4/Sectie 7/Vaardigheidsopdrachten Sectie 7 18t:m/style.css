@@ -1,0 +1,142 @@
+/*opdracht 18**/
+
+/* * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  border-style: solid;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_child {
+  display: flex;
+  border: 2px solid green;
+  height: 200px;
+  font-size: 30px;
+  flex-basis: 283px;
+  align-items: center;
+  justify-content: center;
+}
+
+#yellow {
+  background-color: yellow;
+}
+#yellow9 {
+  background-color: yellow;
+  flex-grow: 1;
+}
+
+#red {
+  background-color: red;
+}
+#red10 {
+  background-color: red;
+  flex-grow: 1;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#purple1 {
+  background-color: purple;
+  height: 40px;
+} */
+
+/* Opdracht 19
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  border-style: solid;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_child {
+  display: flex;
+  border: 2px solid green;
+  height: 200px;
+  font-size: 30px;
+  flex-basis: 354px;
+  align-items: center;
+  justify-content: center;
+}
+
+#yellow {
+  background-color: yellow;
+}
+#yellow9 {
+  background-color: yellow;
+  flex-grow: 1;
+}
+
+#red {
+  background-color: red;
+}
+#red10 {
+  background-color: red;
+  flex-grow: 1;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#purple1 {
+  background-color: purple;
+  /* height: 40px; */
+/* } */
+
+/* Opdracht 20 */
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  border-style: solid;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex_child {
+  display: flex;
+  border: 2px solid green;
+  height: 200px;
+  font-size: 30px;
+  flex-basis: 143px;
+  align-items: center;
+  justify-content: center;
+}
+
+#yellow1 {
+  background-color: yellow;
+  width: 650px;
+}
+
+#red {
+  background-color: red;
+}
+#red10 {
+  background-color: red;
+  /* flex-grow: 1; */
+}
+
+#blue {
+  background-color: blue;
+}
+
+#purple1 {
+  background-color: purple;
+  /* flex-shrink: 1; */
+  margin-bottom: 20px;
+}
