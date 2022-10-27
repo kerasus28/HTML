@@ -1,0 +1,185 @@
+/*
+Opdracht 21
+**/
+/* * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  border-style: solid;
+  /* flex-wrap: wrap; */
+/* justify-content: center; */
+/* align-items: center; */
+
+/* 
+.flex-child {
+  display: flex;
+  border: 2px solid green;
+  height: 400px;
+  font-size: 30px;
+  flex-basis: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+#purple {
+  background-color: purple;
+} */
+/* */
+
+/**
+Opdracht 22
+**/
+
+/* *{
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  border-style: solid;
+  /* flex-wrap: wrap; */
+/* justify-content: center;
+  align-items: center; 
+} */
+
+/* .flex-child {
+  display: flex;
+  border: 2px solid green;
+  height: 400px;
+  font-size: 30px; */
+/* flex-basis: 300px; */
+/* align-items: center;
+  justify-content: center;
+} */
+
+/* #yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+#purple {
+  background-color: purple;
+} */
+
+/** 
+Opdracht 23
+**/
+
+/* * {
+  box-sizing: border-box;
+} */
+/* 
+.flex-container {
+  display: flex;
+  border-style: solid; */
+/* flex-wrap: wrap; */
+/* justify-content: center;
+  align-items: center;
+} */
+
+/* .flex-child {
+  display: flex;
+  border: 2px solid green;
+  height: 100px;
+  font-size: 30px;
+  flex-basis: 300px;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* #yellow {
+  background-color: yellow;
+  margin-top: 15px;
+}
+
+#red {
+  background-color: red;
+  height: 115px;
+  flex-grow: 1;
+}
+
+#blue {
+  background-color: blue;
+  flex-grow: 1; */
+/* height: 90px; */
+/* margin-top: -15px;
+}
+
+#purple {
+  background-color: purple;
+  height: 115px;
+} */
+
+/**
+Opdracht 25
+**/
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  border-style: solid;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column-reverse;
+}
+
+.flex-child {
+  display: flex;
+  border: 2px solid green;
+  /* height: 400px; */
+  font-size: 30px;
+  /* flex-basis: 300px; */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+#yellow {
+  background-color: yellow;
+  width: 30px;
+  margin-left: 98%;
+}
+
+#red {
+  background-color: red;
+  height: 100px;
+}
+
+#blue {
+  background-color: blue;
+  /* flex-grow: 1; */
+  /* justify-self: flex-start; */
+  width: 20px;
+}
+
+#purple {
+  background-color: purple;
+  margin-left: 50%;
+  width: 30px;
+}
