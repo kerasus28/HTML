@@ -5,7 +5,7 @@
 .flex-container {
   display: flex;
   border-style: solid;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   height: 400px;
@@ -13,7 +13,7 @@
   /* flex-direction: row-reverse; */
   /* align-content: center; */
   /* align-items: stretch; */
-  /* align-items: flex-start; */
+  align-items: flex-start;
 }
 
 .flex_child {
@@ -21,7 +21,8 @@
   border: 2px solid green;
   height: 195px;
   font-size: 30px;
-  flex-basis: 379px;
+  flex-basis: 79px;
+  /* align-content: flex-start; */
   align-items: center;
   justify-content: center;
 }
@@ -70,12 +71,13 @@
     /* align-content: center; */
   }
   .flex_child {
-    width: 100%;
-    display: flex;
+    width: 103%;
+    align-content: flex-start;
+    /* display: flex; */
     /* border: 2px solid green; */
     /* height: 149px; */
-    font-size: 30px;
+    /* font-size: 30px; */
     /* flex-basis: 33.3%; */
-    justify-content: center;
+    /* justify-content: center; */
   }
 }
