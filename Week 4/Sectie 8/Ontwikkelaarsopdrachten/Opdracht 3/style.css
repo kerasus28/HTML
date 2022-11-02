@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.container {
+  display: grid;
+  height: 88vh;
+  grid-template-rows: repeat(6 400px);
+  grid-template-columns: repeat(10) 100px;
+}
+
+.box1 {
+  display: grid;
+  font-weight: 900;
+
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+  background-color: green;
+  border-radius: 90px;
+
+  row-gap: 10px;
+  column-gap: 20px;
+  grid-column: 6/10;
+  grid-row: 1;
+}
+h2 {
+  color: black;
+}
+
+span {
+  display: grid;
+  color: black;
+  justify-content: space-between;
+}
+
+.box2 {
+  display: grid;
+  border-radius: 90px;
+  background-color: green;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  row-gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.buttons {
+  display: grid;
+  row-gap: 70px;
+  justify-content: end;
+  margin-top: 20%;
+  margin-right: 80px;
+  grid-column: 10;
+}
+button {
+  display: grid;
+  background-color: green;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  font-size: 20px;
+  align-items: center;
+}
+#b1:hover {
+  background-color: darkgreen;
+}
+#b2:hover {
+  background-color: darkgreen;
+}
+#b3:hover {
+  background-color: darkgreen;
+}
+img {
+  display: grid;
+  border-style: solid;
+  border-radius: 9px;
+  height: 50px;
+  grid-row: 1/6;
+}
+img:hover {
+  display: grid;
+  border-style: solid;
+  border-radius: 10px;
+  grid-row: 1/6;
+  color: rgba(128, 128, 128, 0.462);
+  transition: 0.5s;
+}

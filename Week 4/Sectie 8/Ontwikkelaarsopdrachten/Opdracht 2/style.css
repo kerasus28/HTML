@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 4px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flex-container {
+  display: grid;
+  height: 550px;
+  border: 5px dashed green;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex-child {
+  text-align: center;
+  /* height: 530px; */
+  border-style: solid;
+  /* flex-basis: 50%; */
+  background-color: pink;
+}
+
+.text h4 {
+  margin-top: 20px;
+  background-color: palevioletred;
+}
+
+.flex-child2 {
+  text-align: center;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  /* height: 530px; */
+  border-style: solid;
+  /* flex-basis: 50%; */
+  background-color: pink;
+}

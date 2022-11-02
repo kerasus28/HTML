@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ontwikkelaarsopdrachten</title>
+  </head>
+  <body>
+    <h1>Grid</h1>
+    <div class="flex-container">
+      <div class="flex-child">
+        <h3>Container properties</h3>
+        <div class="text">
+          <h4>//Creates a flexbox</h4>
+          <p>display: flex;</p>
+        </div>
+        <div class="text">
+          <h4>//Direction, establish main-axis</h4>
+          <p>Flex-direction: row || row-reverse || column || column-reverse</p>
+        </div>
+        <div class="text">
+          <h4>//To wrap or not wrap</h4>
+          <p>flex-wrap: nowrap || wrap || wrap-reverse</p>
+        </div>
+        <div class="text">
+          <h4>//Shorthanded (direction wrap)</h4>
+          <p>flex-flow: flex-direction flex-wrap</p>
+        </div>
+        <div class="text">
+          <h4>//Alignment main axis</h4>
+          <p>
+            justify-content: flex-start || flex-end || center || space-between
+            || space-around || space-evenly
+          </p>
+        </div>
+        <div class="text">
+          <h4>//Alignment cross axis</h4>
+          <p>
+            align-items: stretch || flex-start || flex-end || center || baseline
+          </p>
+        </div>
+        <div class="text">
+          <h4>//Alignment lines within the container</h4>
+          <p>
+            align-conten: normal || flex-start || flex-end || center ||
+            space-between || space-around || space-evenly || stretch
+          </p>
+        </div>
+      </div>
+      <div class="flex-child2">
+        <h3>Item properties</h3>
+        <div class="text">
+          <h4>//Order of the (flex) html-elements</h4>
+          <p>order: integer (default: 0)</p>
+        </div>
+        <div class="text">
+          <h4>//Ability to grow if necessary</h4>
+          <p>flex-grow: integer (default: 1)</p>
+        </div>
+        <div class="text">
+          <h4>//Ability to shrink if necessary</h4>
+          <p>flex-shrink: positive integer (default: 1)</p>
+        </div>
+        <div class="text">
+          <h4>//Defindes deafault size of the item</h4>
+          <p>flex-basis: length || keyword (default: auto)</p>
+        </div>
+        <div class="text">
+          <h4>//Shorthanded (grow shrink basis)</h4>
+          <p>flex: flex-grow flex-shrink flex-basis (default 0 1 auto)</p>
+        </div>
+        <div class="text">
+          <h4>//Override default alignment form align-items</h4>
+          <p>
+            align-self: auto || flex-start || flex-end || center || baseline ||
+            stretch
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
