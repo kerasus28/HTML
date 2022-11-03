@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .banner {
@@ -11,6 +12,9 @@
     url(/Public/img/Camaros.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  /* opacity: 80%; */
+  /* background-position-y: -300px; */
   position: relative;
 }
 
@@ -21,7 +25,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background-color: aqua; */
 }
 
 .navbar img {
@@ -54,6 +57,7 @@
 
 .navbar ul li:hover::after {
   width: 100%;
+  transform: translateY(-8px);
 }
 
 .content {
@@ -91,4 +95,6 @@ button {
 button:hover {
   transition: 0.5s;
   background-color: #009688;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0.2);
 }
