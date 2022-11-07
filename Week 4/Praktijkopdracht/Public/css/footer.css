@@ -1,5 +1,4 @@
 footer {
-  /* background-color: rgb(0, 0, 0); */
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.75),
@@ -9,10 +8,11 @@ footer {
   padding-top: 40px;
   color: white;
   position: relative;
+  /* display: flex; */
 }
 
 .footer-content {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;

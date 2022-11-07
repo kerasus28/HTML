@@ -5,11 +5,14 @@ footer {
     rgba(0, 0, 0, 0.75),
     rgba(10, 14, 13, 0.849) 40%
   );
-  height: auto;
+  /* height: auto; */
   padding-top: 40px;
   margin-top: 30px;
   color: white;
   position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
 }
 
 .footer-content {
