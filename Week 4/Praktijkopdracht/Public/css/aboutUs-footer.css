@@ -4,9 +4,9 @@ footer {
     rgba(0, 0, 0, 0.75),
     rgba(10, 14, 13, 0.849) 40%
   );
-  /* height: auto; */
+  height: auto;
   padding-top: 40px;
-  margin-top: 99px;
+  margin-top: 111px;
   color: white;
 }
 
