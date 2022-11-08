@@ -56,3 +56,12 @@
   width: 100%;
   transform: translateY(-8px);
 }
+
+@media screen and (max-width: 860px) {
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+  }
+}
