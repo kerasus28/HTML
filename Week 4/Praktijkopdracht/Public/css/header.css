@@ -65,3 +65,24 @@
     position: relative;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .navbar img {
+    height: 50px;
+  }
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+  }
+
+  .navbar {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
