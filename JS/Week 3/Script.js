@@ -291,10 +291,10 @@
 
 //20
 
-for (let tafel1 = 0; tafel1 <= 10; tafel1++) {
-  // console.log("---------Tafels van 1---------" + tafel1);
+// for (let tafel1 = 0; tafel1 <= 10; tafel1++) {
+//   // console.log("---------Tafels van 1---------" + tafel1);
 
-  for (let tafel2 = 0; tafel2 <= 10; tafel2++) {
-    console.log("---------Tafels van 2---------" + tafel2);
-  }
-}
+//   for (let tafel2 = 0; tafel2 <= 10; tafel2++) {
+//     console.log("---------Tafels van 2---------" + tafel2);
+//   }
+// }
