@@ -112,3 +112,189 @@
 //     objectOne.age +
 //     " Years old"
 // );
+
+// 46 tm 50
+
+//1
+
+// 0,1,2,3
+
+//2
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// let rep = 1;
+
+// while (rep <= 10) {
+//   console.log(rep);
+//   rep++;
+// }
+
+//3
+
+// for (let i = 0; i <= 100; i++) {
+//   console.log(i);
+// }
+
+// let rep = 1;
+
+// while (rep <= 100) {
+//   console.log(rep);
+//   rep++;
+// }
+
+//4
+
+// for (let i = 0; i <= 1000; i++) {
+//   console.log(i);
+// }
+
+// let rep = 1;
+
+// while (rep <= 1000) {
+//   console.log(rep);
+//   rep++;
+// }
+
+//5
+
+// for (let i = 100; i <= 1000; i++) {
+//   console.log(i);
+// }
+
+// let rep = 100;
+
+// while (rep <= 1000) {
+//   console.log(rep);
+//   rep++;
+// }
+
+//6
+
+// for (let i = 100 - 1; i >= 0; i--) {
+//   console.log(i);
+// }
+
+// let rep = 100;
+
+// while (rep >= 1) {
+//   console.log(rep);
+//   rep--;
+// }
+
+//7
+// for (let i = 2; i <= 1000; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// let rep = 2;
+
+// while (rep <= 1000) {
+//   if (rep % 2 == 0) {
+//     console.log(rep);
+//   }
+//   rep++;
+// }
+
+//8
+
+// for (let i = 2; i <= 1000; i++) {
+//   if (i % 100 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// let rep = 2;
+
+// while (rep <= 1000) {
+//   if (rep % 100 == 0) {
+//     console.log(rep);
+//   }
+//   rep++;
+// }
+
+//9
+
+//dit gaat voor een infinte loop zorgen want wat je eigenlijk zegt is voer alles uit wat boven de 0 is
+
+//10
+
+//gaat niks doen, want je begint bij 50 en hij moet eindigen bij 10
+
+//11
+
+//nu gaat ie niet tellen omdat je stappen gaat zetten van 0
+
+//12
+
+//je print niks uit dus hij voert het uit maar je krijgt niks te zien
+
+//13
+
+// const arrayOne = ["Koe", "Herder"];
+
+// for (let i = 0; i < arrayOne.length; i++) {
+//   console.log(arrayOne[i]);
+// }
+
+//16
+
+// const arrayOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+// for (let i = 0; i < arrayOne.length; i++) {
+//   console.log(arrayOne[i]);
+// }
+
+// const arrayOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+// var sum = 0;
+
+// for (let i = 0; i < arrayOne.length; i++) {
+//   sum = sum + arrayOne[i];
+
+//   console.log(sum);
+// }
+
+//17
+
+// const arrayOne = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// for (let i = 0; i < arrayOne.length; i++) {
+//   console.log(arrayOne[i]);
+// }
+
+//18
+
+// const arrayOne = [
+//   [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+//   [10, 12, 14, 16, 18],
+//   [20, 22, 24, 26, 28, 30],
+// ];
+
+//19
+
+// const birthYears = [1988, 1982, 1988, 1988, 1922, 1990, 2000, 2020, 2033, 2001];
+// const ages = [];
+
+// for (let i = 0; i < birthYears.length; i++) {
+//   ages.push(2022 - birthYears[i]);
+// }
+// console.log(ages);
+
+//20
+
+for (let tafel1 = 0; tafel1 <= 10; tafel1++) {
+  // console.log("---------Tafels van 1---------" + tafel1);
+
+  for (let tafel2 = 0; tafel2 <= 10; tafel2++) {
+    console.log("---------Tafels van 2---------" + tafel2);
+  }
+}
