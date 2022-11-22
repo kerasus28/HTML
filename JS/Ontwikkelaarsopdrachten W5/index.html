@@ -8,16 +8,17 @@
     <title>Wiskunde spel</title>
   </head>
   <body>
-    <div class="container">
-      <div class="score">Score</div>
-      <div class="inputs">
-        <div class="input1" placeholder="1"></div>
-        <div class="operator">+</div>
-        <div class="input2" placeholder="2"></div>
+    <div id="container">
+      <div id="primary-number">7</div>
+      <div id="operator">+</div>
+      <div id="secondary-number">10</div>
+      <div id="equal">=</div>
+      <div>
+        <input type="number" id="guess" />
       </div>
-      <input class="userInput" placeholder="Antwoord" />
-      <button class="check" onclick="game()">Check je antwoord!</button>
-      <div class="bericht">Goed/Fout</div>
+      <div>
+        <button id="btn" onclick="gentext();">check</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

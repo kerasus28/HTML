@@ -1,38 +1,35 @@
-//Random nummer generator
+//generate random numbers
+let firstNumber = parseInt(Math.random() * 10);
+let secondNumber = parseInt(Math.random() * 10);
 
-const randomNum1 = Math.trunc(Math.random() * 10) + 1;
-const randomNum2 = Math.trunc(Math.random() * 10) + 1;
+function gentext() {
+  var operators = ["plus", "min", "keer"];
+  var para = (document.querySelector("operator").textContent = operators);
+  para.innerHTML = operators[Math.floor(Math.random() * operators.length)];
+}
 
-document.querySelector(".input1").textContent = randomNum1;
-document.querySelector(".input2").textContent = randomNum2;
+//get the answer
+let total = firstNumber + secondNumber;
 
-//Random operator generator
+//display numbers and operator
+let primary = document.getElementById("primary-number");
+primary.innerHTML = `${firstNumber}`;
 
-let operator = ["-", "+", "*", "%"];
-let randomOp = operator[Math.floor(Math.random() * operator.length)];
+let secondary = document.getElementById("secondary-number");
+secondary.innerHTML = `${secondNumber}`;
 
-document.querySelector(".operator").textContent = randomOp;
+//get guess from user
+let button = document.getElementById("btn");
 
-let antwoord = randomNum1 + randomNum2;
-
-// function game() {
-//   var user = document.getElementsByClassName(".check").value;
-//   if (user == antwoord) {
-//     // document.getElementsByClassName(".bericht").textContent = "Goed gedaan";
-//     document.querySelector(".bericht").addEventListener.textContent =
-//       "Goed gedaan klootzak";
-//   }
-// }
-
-document.querySelector(".check").addEventListener("click", function () {
-  const antwoord = number(document.querySelector(".guess").value);
-});
-
-document.querySelector(".check").addEventListener("click", function () {
-  var user = document.getElementsByClassName(".check").value;
-  if (user == antwoord) {
-    // document.getElementsByClassName(".bericht").textContent = "Goed gedaan";
-    document.querySelector(".bericht").addEventListener.textContent =
-      "Goed gedaan klootzak";
+button.addEventListener("click", function () {
+  let guess = document.getElementById("guess").value;
+  guess = Number(guess);
+  //check answer
+  if (guess === total) {
+    alert("Correct");
+    window.location.reload();
+  } else {
+    alert("Sorry. Juiste antwoord was " + total + ".");
+    window.location.reload();
   }
 });
