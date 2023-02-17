@@ -127,25 +127,25 @@
 
 //opd17
 
-document.querySelector(".box2");
-document
-  .querySelector(".box1")
-  .addEventListener("click", function handleClick() {
-    document.querySelector(".box2");
-    {
-      if (img.dataset.image == "user1") {
-        img.src = "Camaro.jpg";
-        img.dataset.image = "user2";
-        return;
-      }
+// document.querySelector(".box2");
+// document
+//   .querySelector(".box1")
+//   .addEventListener("click", function handleClick() {
+//     document.querySelector(".box2");
+//     {
+//       if (img.dataset.image == "user1") {
+//         img.src = "Camaro.jpg";
+//         img.dataset.image = "user2";
+//         return;
+//       }
 
-      if (img.dataset.image == "user2") {
-        img.src = "Camaros.jpg";
-        img.dataset.image = "user1";
-        return;
-      }
-    }
-  });
+//       if (img.dataset.image == "user2") {
+//         img.src = "Camaros.jpg";
+//         img.dataset.image = "user1";
+//         return;
+//       }
+//     }
+//   });
 
 //opd18 19 20
 
